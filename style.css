@@ -1,0 +1,34 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container{
+    background-color:darkseagreen;
+    min-height: 800px;
+    min-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadre{
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(207, 207, 207,0.5);
+    
+}
+h2{
+    color: aliceblue;
+    font-weight: 400;
+    padding-top: 20%;
+}
+
+#cadre p {
+    color : aliceblue;
+    font-size: 1.2em;
+}
